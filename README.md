@@ -1,5 +1,7 @@
 # knotStreet · 乾淨的神經 · 紐結環 (Neural Knot)
 
+
+![demo](demo.png)
 ▶ **線上試玩：https://rolanthhuang.github.io/knotStreet/**
 
 沿 T(5,2) 環面紐結展開的 3D 拱廊街道城市（Three.js，單檔 HTML），可第一／第三人稱步行與飛行。

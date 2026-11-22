@@ -40,6 +40,7 @@ for (let i = 0; i < poses.length; i++) {
   }, p);
   await new Promise((r) => setTimeout(r, 300));
   const f = `test/${prefix}_${i}.png`;
+  if (process.env.CLEAN) await page.addStyleTag({ content: '#ui,.ui,.hud,.panel,#minimap,canvas~*{display:none!important}' });
   await page.screenshot({ path: f });
   console.log('shot', f, Date.now() - t1, 'ms', p.name || '');
 }
